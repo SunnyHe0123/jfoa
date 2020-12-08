@@ -1,6 +1,6 @@
 jasypt:
    encryptor:
-      password: ${JF_JASYPT_ENCRYPTOR}
+      password: javafami.club
 
 jfoa:
    amqp:

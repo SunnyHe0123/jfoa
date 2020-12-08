@@ -4,6 +4,6 @@ include 'jf-commons'
 
 include 'jf-echarts'
 
-include 'runner', 'web:angular'
+include 'runner', 'web:angular', 'web:vue'
 
 
