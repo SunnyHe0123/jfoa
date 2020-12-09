@@ -12,7 +12,8 @@
           console.log("====before=create=======")
        },
        created() {
-          document.body.className += " app-loaded"
+          console.log("===create=======")
+          document.body.style += " app-loaded"
        }
     }
 </script>
