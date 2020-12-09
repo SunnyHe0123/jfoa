@@ -6,7 +6,14 @@
 
 <script>
     export default {
-        name: "AppPortal"
+       name: "AppPortal",
+       //life circle hooks
+       beforeCreate() {
+          console.log("====before=create=======")
+       },
+       created() {
+          document.body.className += " app-loaded"
+       }
     }
 </script>
 
