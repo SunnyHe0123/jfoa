@@ -1,6 +1,6 @@
 jasypt:
    encryptor:
-      password: javafami.club
+      password: ${JF_JASYPT_ENCRYPTOR}
 
 jfoa:
    amqp:
@@ -51,7 +51,7 @@ spring:
       port: 5672
       virtual-host: /
       username: jfoa
-      password: ENC(Fsj3Z7OHFAvOfjf7GSol02jS6ddGr9HSVAm1fBx8iwig942jxj5goh/8QJFrRq2p)
+      password: jfoa
 
    # Redis
    redis:
