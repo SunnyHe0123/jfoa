@@ -1,0 +1,15 @@
+$blue: #00a0dc;
+$blackColor: #07111b;
+$lightColor: #93999f;
+
+// 背景全铺
+@mixin full_background {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: pink;
+}
