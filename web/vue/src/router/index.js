@@ -1,6 +1,8 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import Home from "../views/Home.vue";
+import AppPortal from "../views/portal/AppPortal";
+import EMComponent from "../views/em/EMComponent";
 
 Vue.use(VueRouter);
 
@@ -18,6 +20,16 @@ const routes = [
     // which is lazy-loaded when the route is visited.
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/About.vue")
+  },
+  {
+    path: "/portal",
+    name: "portal",
+    component: AppPortal
+  },
+  {
+    path: "/em",
+    name: "em",
+    component: EMComponent
   }
 ];
 
