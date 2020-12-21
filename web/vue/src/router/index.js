@@ -1,17 +1,12 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../views/Home.vue";
 import AppPortal from "../views/portal/AppPortal";
 import EMComponent from "../views/em/EMComponent";
+import PortalWelcome from "../views/portal/PortalWelcome";
 
 Vue.use(VueRouter);
 
 const routes = [
-  {
-    path: "/",
-    name: "Home",
-    component: Home
-  },
   {
     path: "/about",
     name: "About",
@@ -23,14 +18,31 @@ const routes = [
   },
   {
     path: "/portal",
-    name: "portal",
-    component: AppPortal
+    component: AppPortal,
+    children: [
+      {
+        path: "welcome",
+        component: PortalWelcome
+      },
+      {
+        path: "*",
+        redirect: "welcome"
+      },
+      {
+        path: "",
+        redirect: "welcome"
+      }
+    ]
   },
   {
     path: "/em",
     name: "em",
     component: EMComponent
-  }
+  },
+  {
+    path: "*",
+    redirect: "portal"
+  },
 ];
 
 const router = new VueRouter({

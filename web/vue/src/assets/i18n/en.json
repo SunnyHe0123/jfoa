@@ -1,0 +1,227 @@
+{
+   "Support": "Support",
+   "Oppose": "Oppose",
+   "Home": "Home",
+   "ID": "ID",
+   "Close": "Close",
+   "ok": "ok",
+   "OK": "OK",
+   "Ok": "Ok",
+   "Ip": "Ip",
+   "Votes": "Votes",
+   "subjectList": "Subject List",
+   "Create": "Create",
+   "Loading": "Loading",
+   "Type": "Type",
+   "Add": "Add",
+   "Apply": "Apply",
+   "Default": "Default",
+   "sysAdmin": "System Administrator",
+   "Description": "Description",
+   "Name": "Name",
+   "Role": "Role",
+   "Roles": "Roles",
+   "Permission": "Permission",
+   "Toggle": "Toggle",
+   "Help": "Help",
+   "Help Information": "Help Information",
+   "Language": "Language",
+   "Deprecated": "Deprecated",
+   "numberSymbol": "No.",
+   "registeredDate": "Registered Date",
+   "Version": "Version",
+   "Error": "Error",
+   "Cancel": "Cancel",
+   "CANCEL": "CANCEL",
+   "Confirm": "Confirm",
+   "confirmWarn": "Do you want to delete {{0}}?",
+   "Account": "Account",
+   "Document": "Document",
+   "Unknown": "Unknown",
+   "Resource": "Resource",
+   "Action": "Action",
+   "User": "User",
+   "Date": "Date",
+   "Search": "Search",
+   "Delete": "Delete",
+   "Notify": "Notify",
+   "Platform": "Platform",
+   "searchEmptyError": "Search key words is empty!",
+   "Search Result": "Search Result",
+   "Message": "Message",
+   "Upload": "Upload",
+   "File Name": "File Name",
+   "Reset": "Reset",
+   "to": "to",
+   "Password": "Password",
+   "Notification": "Notification",
+   "Api Document": "Api Document",
+   "user": {
+      "profile": {
+         "Profile": "Profile",
+         "Gender": "Gender",
+         "Male": "Male",
+         "Female": "Female",
+         "type": "User Type",
+         "setting": "Profile Settings",
+         "name": "User Name",
+         "ph": {
+            "name": "Please enter your user name",
+            "account": "Please enter your account"
+         },
+         "warn": {
+            "nameRequired": "Name is required.",
+            "accountRequired": "Account is required."
+         }
+      },
+      "prompt": {
+         "remMe": "Remember Me",
+         "joinUs": "New to JavaFamily?",
+         "createAccount": "Create an account",
+         "signUpSuccessTitle": "Registration Success",
+         "signUpSuccessInfo": "You will receive an email containing your account information, please click the activation link in the email within ten minutes to activate your account.\n\n Go to login page?"
+      },
+      "errorMsg": {
+         "insertError": "Insert user error!"
+      },
+      "pwd": {
+         "change": "Change Password",
+         "oldPwd": "Old Password",
+         "newPwd": "New Password",
+         "warn": {
+            "oldRequired": "Old Password is required.",
+            "required": "Password is required.",
+            "formatError": "The password must be a combination of Numbers and letters.",
+            "confirmRequired": "Confirm Password is required.",
+            "notMatch": "The passwords do not match.",
+            "oldError": "The old password is error."
+         },
+         "placeholder": {
+            "pwd": "Please enter your password",
+            "oldPwd": "Input your old password",
+            "newPwd": "Input your new password",
+            "confirmPwd": "Input your confirm password"
+         },
+         "label": {
+            "confirmPwd": "Confirm New Password"
+         },
+         "prompt": {
+            "changeSuccess": "Password changed successfully."
+         }
+      },
+      "status": {
+         "active": "Active Status"
+      }
+   },
+   "portal": {
+      "installer": {
+         "download": "Client Download",
+         "desc": "Focus on JavaFamily OA System, reduce unnecessary network traffic, faster and more stable.",
+         "whatsBuild": "See what's been built",
+         "unSupportError": "The platform client is under urgent development, currently only supports Mac OS X client download, please continue to pay attention to JavaFamily."
+      },
+      "email": {
+         "Email": "Email",
+         "placeholder": {
+            "subject": "Subject",
+            "content": "Write Email Content",
+            "email": "Please input a valid email."
+         },
+         "send": "Send",
+         "warn": {
+            "subjectNotNull": "Email Subject must not empty!",
+            "contentNotNull": "Email Content must not empty!",
+            "formatError": "Email format error.",
+            "required": "Email is required"
+         },
+         "prompt": {
+            "sendSuccess": "Email Send success!",
+            "sendFailed": "Email Send failed, Please try again later!"
+         }
+      },
+      "sr": {
+         "achievedAddr": "Achieved Address",
+         "achievedAddrRequired": "Achieved Address is required",
+         "achievedAddrPlaceHolder": "Please Input Achieved Address Field"
+      },
+      "toolbar": {
+         "mailAuthor": "Mail Author",
+         "vote": "Subject to vote"
+      }
+   },
+   "em": {
+      "Monitor": "Monitor",
+      "Monitoring": "Monitoring",
+      "Setting": "Setting",
+      "writeNotify": "Write Notification",
+      "audit": {
+         "Audit": "Audit",
+         "fromDate": "From Date",
+         "endDate": "End Date",
+         "showDetail": "Show Detail",
+         "errorDetail": "Error Detail",
+         "noExporterError": "No matching exporter was found when exporting {{0}}",
+         "endBeforeStartError": "The end date must after start date."
+      },
+      "client": {
+         "ph": {
+            "version": "Please input client version",
+            "browser": "Click browser icon to choose file",
+            "link": "Installer Link"
+         },
+         "manager": "Installer Manager",
+         "Clients": "Clients",
+         "clientUpload": "Client Upload",
+         "clientVersion": "Client Version",
+         "downloadLink": "Download Link",
+         "uploadDate": "Upload Date"
+      },
+      "user": {
+         "manager": "User Manager"
+      },
+      "role": {
+         "name": "Role Name",
+         "manager": "Role Manager",
+         "existError": "Role {{0}} has exist",
+         "idRoleNotExist": "Role has not exist that id is {{0}}",
+         "addRole": "Add Role",
+         "deleteRole": "Delete Role",
+         "updateEmpty": "Update role and id must is not null",
+         "updateNotMatch": "Update role id is not match. id: {{0}}, role.id: {{1}}"
+      }
+   },
+   "security": {
+      "link": {
+         "em": "Enterprise Management",
+         "sign-in": "Sign in",
+         "sign-in-by-gitHub": "Sign in by GitHub",
+         "sign-up": "Sign up",
+         "sign-out": "Sign out"
+      },
+      "errorMsg": {
+         "accountNotExist": "The account is not exist!",
+         "accountLocked": "The account is locked!",
+         "manyAttempts": "Too many attempts, please try again later!",
+         "loginError": "Login failed, please try again later!",
+         "oAuth": {
+            "authFailed": "oAuth authentication failed, please try again later!"
+         }
+      }
+   },
+   "common": {
+      "createUser": "Create User",
+      "createDate": "Create Date",
+      "noPermission": "You do not have permission to perform this operation",
+      "fieldRequired": "This field is required",
+      "subjectRequest": "Subject Request",
+      "subjectRequestSupport": "Subject Request-Support",
+      "subjectRequestOppose": "Subject Request-Oppose",
+      "subjectRequestManager": "Subject Request Manager"
+   },
+   "dialog": {
+      "inputName": {
+         "namePh": "Please input name field",
+         "title": "Input Name"
+      }
+   }
+}

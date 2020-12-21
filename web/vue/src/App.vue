@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
     <router-view />
   </div>
 </template>
 
 <style lang="scss">
   @import "style/_variables.scss";
+  html, body, #app {
+    height: 100%;
+    margin: 0;
+  }
+
   #app {
-    background-color: $blue;
+    //background-color: $blue;
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
